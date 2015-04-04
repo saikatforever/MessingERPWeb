@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{5
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MessingERP", "MessingERP\", "{138F9008-6906-4CEA-8CE9-4BE1A1E01CD0}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/MessingERP"
 		Debug.AspNetCompiler.PhysicalPath = "MessingERP\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MessingERP\"
