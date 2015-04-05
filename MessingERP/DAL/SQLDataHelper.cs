@@ -10,16 +10,16 @@ namespace DAL
     public class SQLDataHelper
     {
         //const string objConnStr = "Data Source=SAIKAT-PC\\SQLEXPRESS;uid=sa;Password=Technical;Initial Catalog=mess_db;";
-        String conStr;
+        //String conStr;
         SqlConnection con;
-        public SQLDataHelper()
-        {
-            conStr ="Data Source=.\\SQLEXPRESS;Initial Catalog=chem_db;user=sa;password=Technical";  //ConfigurationManager.ConnectionStrings["DB"].ToString();
-        }
+        //public SQLDataHelper()
+        //{
+        //    conStr ="Data Source=.\\SQLEXPRESS;Initial Catalog=chem_db;user=sa;password=Technical";  //ConfigurationManager.ConnectionStrings["DB"].ToString();
+        //}
 
 
         // This function will be used to execute R(CRUD) operation of parameterless commands
-        public DataTable ExecuteSelectCommand(string CommandName, CommandType cmdType)
+        public DataTable ExecuteNonQuery(String conStr, string CommandName, CommandType cmdType)
         {
             DataTable table = null;
             using (con = new SqlConnection(conStr))
@@ -53,9 +53,9 @@ namespace DAL
         }
 
         // This function will be used to execute R(CRUD) operation of parameterized commands
-        public DataTable ExecuteParamerizedSelectCommand(string CommandName, CommandType cmdType, SqlParameter[] param)
+        public DataSet ExecuteSelect(String conStr, string CommandName, CommandType cmdType, SqlParameter[] param)
         {
-            DataTable table = new DataTable();
+            DataSet ds = new DataSet();
 
             using (con = new SqlConnection(conStr))
             {
@@ -74,7 +74,7 @@ namespace DAL
 
                         using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                         {
-                            da.Fill(table);
+                            da.Fill(ds);
                         }
                     }
                     catch
@@ -84,11 +84,11 @@ namespace DAL
                 }
             }
 
-            return table;
+            return ds;
         }
 
         // This function will be used to execute CUD(CRUD) operation of parameterized commands
-        public bool ExecuteNonQuery(string CommandName, CommandType cmdType, SqlParameter[] pars)
+        public bool ExecuteNonQuery(String conStr, string CommandName, CommandType cmdType, SqlParameter[] pars)
         {
             int result = 0;
 
