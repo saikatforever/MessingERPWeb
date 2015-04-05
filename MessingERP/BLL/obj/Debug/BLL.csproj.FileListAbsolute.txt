@@ -1,0 +1,9 @@
+F:\MessingERP\trunk\MessingERP\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\BLL.dll
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\BLL.pdb
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\BO.dll
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\DAL.dll
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\BO.pdb
+F:\MessingERP\trunk\MessingERP\BLL\bin\Debug\DAL.pdb
+F:\MessingERP\trunk\MessingERP\BLL\obj\Debug\BLL.dll
+F:\MessingERP\trunk\MessingERP\BLL\obj\Debug\BLL.pdb
