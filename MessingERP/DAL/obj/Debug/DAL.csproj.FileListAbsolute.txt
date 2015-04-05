@@ -1,0 +1,7 @@
+F:\MessingERP\trunk\MessingERP\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\MessingERP\trunk\MessingERP\DAL\bin\Debug\DAL.dll
+F:\MessingERP\trunk\MessingERP\DAL\bin\Debug\DAL.pdb
+F:\MessingERP\trunk\MessingERP\DAL\bin\Debug\BO.dll
+F:\MessingERP\trunk\MessingERP\DAL\bin\Debug\BO.pdb
+F:\MessingERP\trunk\MessingERP\DAL\obj\Debug\DAL.dll
+F:\MessingERP\trunk\MessingERP\DAL\obj\Debug\DAL.pdb
