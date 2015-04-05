@@ -1,0 +1,4 @@
+F:\MessingERP\trunk\MessingERP\BO\bin\Debug\BO.dll
+F:\MessingERP\trunk\MessingERP\BO\bin\Debug\BO.pdb
+F:\MessingERP\trunk\MessingERP\BO\obj\Debug\BO.dll
+F:\MessingERP\trunk\MessingERP\BO\obj\Debug\BO.pdb
