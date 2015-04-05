@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentCSS" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentHead" runat="Server">
-    <title>AdminLTE 2 | Dashboard</title>
+    <title>Messing ERP | Dashboard</title>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPageHeader" runat="Server">
     <h1>
